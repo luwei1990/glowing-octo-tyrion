@@ -1,5 +1,5 @@
 from flask import Flask
-from flask.ext.assets import Environment, Bundle
+from flask_assets import Environment, Bundle
 from app.helpers import read_yaml, read_env
 from app.errors import HTTPMethodNotImplementedError, ControllerNotFoundError, ConfigNotFoundError
 import importlib
