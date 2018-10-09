@@ -2,7 +2,7 @@ from tests.base_test import BaseTest
 from app.helpers import create_app, create_routes, load_class, compile_assets, compile_asset, ASSET_TYPE_COFFEE, ASSET_TYPE_CSS
 from nose.tools import raises, ok_, eq_
 from flask import Flask
-from flask.ext.assets import Environment, Bundle
+from flask_assets import Environment, Bundle
 from app.errors import ConfigNotFoundError, HTTPMethodNotImplementedError, ControllerNotFoundError
 import copy
 
